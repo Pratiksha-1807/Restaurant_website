@@ -100,8 +100,11 @@ html, body {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   font-family: inherit;
+  display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
 }
-.histoty:hover{
+.histoty:hover {
   background-color: #C9A15A;
   color: #241E1C;
 }
