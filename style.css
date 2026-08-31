@@ -664,3 +664,42 @@ html, body {
     background-color: #1c1714;
     margin: 0;
 }
+.explore-more {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 14px 36px;
+    background-color: transparent;
+    color: #c9a15a;
+    border: 1px solid #c9a15a;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore-more:hover {
+    background-color: #c9a15a;
+    color: #241e1c;
+}
+.view-old-pics {
+    background-color: transparent;
+    color: #c9a15a;
+    border: 1px solid #c9a15a;
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.view-old-pics:hover {
+    background-color: #c9a15a;
+    color: #241e1c;
+}
