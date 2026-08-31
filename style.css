@@ -89,8 +89,23 @@ html, body {
   border: 1px solid #C9A15A;
 }
 
-
-.homepage-image{
+.history{
+  background-color: transparent;
+  color: #C9A15A;
+  border: 1px solid #C9A15A;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: inherit;
+}
+.histoty:hover{
+  background-color: #C9A15A;
+  color: #241E1C;
+}
+  .homepage-image{
   flex: 1;
   min-width: 280px;
   max-width: 420px;
